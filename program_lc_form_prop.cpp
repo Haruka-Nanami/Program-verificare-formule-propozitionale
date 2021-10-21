@@ -6,12 +6,10 @@ int main()
     char a[100];
     cin.get(a,100);
     cin.get();
-    cout<<a;
     char b[100][100],c[100];
     int i,cont=0;
     for(i=0;i<strlen(a);i++)
     {
-      //  cout<<endl<<a[i]<<"    "<<i<<"    "<<cont;
         if(cont<0)
         {
             break;
@@ -57,20 +55,11 @@ int main()
             strcat(b[cont],c);
             cont--;
         }
-       // cout<<endl<<a[i]<<"    "<<i<<"    "<<cont;
     }
     if(cont<0 && i==strlen(a))
     {
         cout<<"Adevarat";
     }
-    else cout<<endl<<"Fals"
+    else cout<<endl<<"Fals";
 }
 
-/*
-e(29) echi
-v(26) rez
-n(191) nu
-s(30) si
-o(31) or
-*/
-//(Ps((nQ)s(n(n(Qe(nR)))))),
