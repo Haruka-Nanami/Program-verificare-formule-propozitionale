@@ -78,11 +78,3 @@ int main()
     else cout<<endl<<"Fals";
 }
 
-/*
-e(29) echi
-v(26) rez
-n(191) nu
-s(30) si
-o(31) or
-*/
-//(Ps((nQ)r(n(n(Qe(nR)))))),
